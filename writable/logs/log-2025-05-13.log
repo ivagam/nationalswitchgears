@@ -1,0 +1,26 @@
+CRITICAL - 2025-05-13 03:48:02 --> ErrorException: Undefined property: CodeIgniter\View\View::$load
+[Method: GET, Route: contact-us]
+in APPPATH\Views\contact_us.php on line 293.
+ 1 APPPATH\Views\contact_us.php(293): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$load', 'D:\\xampp82\\htdocs\\national\\app\\Views\\contact_us.php', 293)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp82\\htdocs\\national\\app\\Views\\contact_us.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('contact_us', [], true)
+ 5 APPPATH\Controllers\Home.php(29): view('contact_us')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->contactUs()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-13 03:49:02 --> ParseError: syntax error, unexpected token "<", expecting end of file
+[Method: GET, Route: contact-us]
+in APPPATH\Views\contact_us.php on line 293.
+ 1 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('contact_us', [], true)
+ 3 APPPATH\Controllers\Home.php(29): view('contact_us')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->contactUs()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
