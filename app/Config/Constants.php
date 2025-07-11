@@ -80,6 +80,6 @@ defined('EXIT__AUTO_MIN')      || define('EXIT__AUTO_MIN', 9);      // lowest au
 defined('EXIT__AUTO_MAX')      || define('EXIT__AUTO_MAX', 125);    // highest automatically-assigned error code
 
 // Define your web directory
-define('WEB_DIR', 'http://localhost:8080/national/');
-define('WEB_URL', 'http://localhost:8080/national/');
-define('WEB_IMG', 'http://localhost:8080/national/public/images/');
+define('WEB_DIR', 'http://localhost:8080/nationalswitchgears/');
+define('WEB_URL', 'http://localhost:8080/nationalswitchgears/');
+define('WEB_IMG', 'http://localhost:8080/nationalswitchgears/public/images/');

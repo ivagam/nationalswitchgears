@@ -107,7 +107,8 @@
 										<li><span class="icon fas fa-map-marker-alt"></span> NATIONAL SWITCHGEARS<br>
 										33 (Old No. 94 - B), EB Road, <br> Sidco Industrial Estate,<br> Ambattur, Chennai 600 098, India</li>
 										<li><span class="icon fa fa-phone"></span><a href="tel:91 44 26254432">+91 44 26254432 </a></li>
-										<li><span class="icon fa fa-phone"></span><a href="tel:91 97910 04074/5">+91 97910 04074/5 </a></li>
+										<li><span class="icon fa fa-phone"></span><a href="tel:91 97910 04075">+91 97910 04075 </a></li>
+										<li><span class="icon fa fa-phone"></span><a href="tel:91 73387 88819">+91 73387 88819 </a></li>
 										<li><span class="icon fa fa-envelope"></span>sales@nationalswitchgears.com</li>
 									</ul>
 									<div class="timing">
